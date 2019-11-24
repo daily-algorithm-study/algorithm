@@ -31,3 +31,8 @@
   * [3단계 / 네트워크 (DFS/BFS)](https://programmers.co.kr/learn/courses/30/lessons/43162)
   * [4단계 / 도둑질 (동적계획법)](https://programmers.co.kr/learn/courses/30/lessons/42897)
   
+* 2019 - 11 - Week5
+  * [1단계 / 나누어 떨어지는 숫자 배열 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12910)
+  * [2단계 / 큰 수 만들기 (탐욕법)](https://programmers.co.kr/learn/courses/30/lessons/42883)
+  * [3단계 / 디스크 컨드롤러 (힙)](https://programmers.co.kr/learn/courses/30/lessons/42627)
+  * [4단계 / 올바른 괄호의 갯수 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12929)
