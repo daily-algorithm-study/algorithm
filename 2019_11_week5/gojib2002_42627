@@ -1,0 +1,38 @@
+#include <string>
+#include <vector>
+#include <queue>
+#include <algorithm>
+
+using namespace std;
+
+//SJF 구현
+
+int solution(vector<vector<int>> jobs) {
+    int answer = 0;
+    int t = 0;
+    int idx = 0;
+    vector<pair<int,int>> v;
+    priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+    int i;
+    
+    for(i=0;i<jobs.size();i++){
+        v.push_back(make_pair(jobs[i][0], jobs[i][1]));
+    }
+    sort(v.begin(),v.end());
+    
+    while(!pq.empty() || idx < v.size()){
+        while(idx < v.size() && v[idx].first <= t){
+            pq.push(make_pair(v[idx].second, v[idx].first));
+            idx++;
+        }
+        
+        if(pq.empty()) t++;
+        else{
+            t += pq.top().first;
+            answer += t - pq.top().second;
+            pq.pop();
+        }
+    }
+    
+    return answer / jobs.size();
+}
