@@ -1,0 +1,25 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+// n이 14라서 그냥 완전탐색..
+
+int N;
+
+int recur(int cur, int sum){
+    if(sum < 0) return 0;
+    
+    if(cur == 2*N){
+        if(sum == 0) return 1;
+        else return 0;
+    }
+    
+    return recur(cur+1,sum+1) + recur(cur+1,sum-1);
+}
+
+int solution(int n) {
+    N = n;
+    
+    return recur(0,0);
+}
