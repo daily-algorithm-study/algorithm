@@ -1,0 +1,45 @@
+#include <string>
+#include <vector>
+#include <stack>
+
+using namespace std;
+
+// 가능하면 앞자리를 크게 만들어주는게 좋으니 계속 스택에 쌓으면서 자기보다 큰게 앞에 있으면 지워버린다.
+// 끝까지 갔는데 더 지워야 되면 뒤에서부터 지우는게 최선이다.
+
+string solution(string number, int k) {
+    int i;
+    string answer = "";
+    stack<char> s;
+    stack<char> s2;
+    
+    for(i=0;i<number.size();i++)
+    {
+        while(!s.empty() && s.top() < number[i] && k)
+        {
+            s.pop();
+            k--;
+        }
+        
+        s.push(number[i]);
+    }
+    
+    while(k--)
+    {
+        s.pop();
+    }
+    
+    while(!s.empty())
+    {
+        s2.push(s.top());
+        s.pop();
+    }
+    
+    while(!s2.empty())
+    {
+        answer += s2.top();
+        s2.pop();
+    }
+    
+    return answer;
+}
