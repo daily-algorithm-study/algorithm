@@ -36,3 +36,9 @@
   * [2단계 / 큰 수 만들기 (탐욕법)](https://programmers.co.kr/learn/courses/30/lessons/42883)
   * [3단계 / 디스크 컨드롤러 (힙)](https://programmers.co.kr/learn/courses/30/lessons/42627)
   * [4단계 / 올바른 괄호의 갯수 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12929)
+
+* 2019 - 12 - Week1
+  * [1단계 / 완주하지 못한 선수 (해시)](https://programmers.co.kr/learn/courses/30/lessons/42576)
+  * [2단계 / 124나라의 숫자 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12899)
+  * [3단계 / 단어 변환 (DFS/BFS)](https://programmers.co.kr/learn/courses/30/lessons/43163)
+  * [4단계 / 선입 선출 스케줄링 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12920)
