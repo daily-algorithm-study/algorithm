@@ -1,0 +1,58 @@
+#include <string>
+#include <vector>
+#include <queue>
+
+using namespace std;
+
+//변환 가능한 단어인지 판단해주고 bfs로 탐색.
+
+bool visited[50];
+
+bool possible(string a, string b)
+{
+    int i;
+    int cnt = 0;
+    
+    for(i=0;i<a.length();i++)
+    {
+        if(a[i] != b[i]) cnt++;
+    }
+    
+    if(cnt==1) return true;
+    else return false;
+}
+
+int solution(string begin, string target, vector<string> words) {
+    int answer = 0;
+    queue<pair<string,int>> que;
+    int i;
+    string temp;
+    int num;
+    
+    que.push(make_pair(begin,0));
+    while(!que.empty())
+    {
+        temp = que.front().first;
+        num = que.front().second;
+        que.pop();
+        
+        if(temp.compare(target) == 0)
+        {
+            answer = num;
+            break;
+        }
+        
+        for(i=0;i<words.size();i++)
+        {
+            if(visited[i]) continue;
+            
+            if(possible(temp, words[i]))
+            {
+                visited[i] = true;
+                que.push(make_pair(words[i],num+1));
+            }
+        }
+    }
+    
+    return answer;
+}
