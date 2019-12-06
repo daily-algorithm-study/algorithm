@@ -1,4 +1,4 @@
-// 다른 풀이보고 했는데 이분탐색으로 푼 것 같아요
+// 다른 풀이보고 했는데 이분탐색을 약간 변형한 Parametric Search로 푼 것 같아요
 #include <string>
 #include <vector>
 
