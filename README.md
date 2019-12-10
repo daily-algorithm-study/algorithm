@@ -42,3 +42,15 @@
   * [2단계 / 124나라의 숫자 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12899)
   * [3단계 / 단어 변환 (DFS/BFS)](https://programmers.co.kr/learn/courses/30/lessons/43163)
   * [4단계 / 선입 선출 스케줄링 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12920)
+
+* 2019 - 12 - Week2
+  * [1단계 / 두 정수 사이의 합 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12912)
+  * [2단계 / 더 맵게 (해시)](https://programmers.co.kr/learn/courses/30/lessons/42626)
+  * [3단계 / 섬 연결하기 (탐욕법)](https://programmers.co.kr/learn/courses/30/lessons/42861)
+  * [4단계 / 사칙연산 (찾아라 프로그래밍 마에스터)](https://programmers.co.kr/learn/courses/30/lessons/1843)
+
+* 2019 - 12 - Week3
+  * [1단계 / 2016년 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12901)
+  * [2단계 / 피보나치수 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12945)
+  * [3단계 / 타일 장식물 (동적계획법)](https://programmers.co.kr/learn/courses/30/lessons/43104)
+  * [4단계 / 저울 (탐욕법)](https://programmers.co.kr/learn/courses/30/lessons/42886)
