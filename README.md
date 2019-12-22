@@ -54,3 +54,9 @@
   * [2단계 / 피보나치수 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12945)
   * [3단계 / 타일 장식물 (동적계획법)](https://programmers.co.kr/learn/courses/30/lessons/43104)
   * [4단계 / 저울 (탐욕법)](https://programmers.co.kr/learn/courses/30/lessons/42886)
+
+* 2019 - 12 - Week4
+  * [1단계 / 같은 숫자는 싫어 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12906)
+  * [2단계 / 소수찾기 (완전탐색)](https://programmers.co.kr/learn/courses/30/lessons/42839)
+  * [3단계 / 입국심사 (이분탐색)](https://programmers.co.kr/learn/courses/30/lessons/43238)
+  * [4단계 / 카드게임 (동적계획법)](https://programmers.co.kr/learn/courses/30/lessons/42896)
