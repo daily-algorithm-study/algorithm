@@ -60,3 +60,9 @@
   * [2단계 / 소수찾기 (완전탐색)](https://programmers.co.kr/learn/courses/30/lessons/42839)
   * [3단계 / 입국심사 (이분탐색)](https://programmers.co.kr/learn/courses/30/lessons/43238)
   * [4단계 / 카드게임 (동적계획법)](https://programmers.co.kr/learn/courses/30/lessons/42896)
+
+* 2020 - 01 - Week1
+  * [1단계 / 서울에서 김서방 찾기 (연습문제)](https://programmers.co.kr/learn/courses/30/lessons/12919)
+  * [2단계 / 기능개발 (스택/큐)](https://programmers.co.kr/learn/courses/30/lessons/42586)
+  * [3단계 / 가장 먼 노드 (그래프)](https://programmers.co.kr/learn/courses/30/lessons/49189)
+  * [4단계 / 징검다리 (이분탐색)](https://programmers.co.kr/learn/courses/30/lessons/43236)
